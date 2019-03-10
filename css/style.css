@@ -799,3 +799,198 @@ h2,
       -ms-flex-align: center;
           align-items: center;
 }
+.product__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+.product__item {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 260px;
+  margin-right: 33px;
+  margin-bottom: 100px;
+  overflow: hidden;
+  -webkit-transition: ease-out 0.3s;
+  transition: ease-out 0.3s;
+}
+.product__item:nth-child(4n) {
+  margin-right: 0;
+}
+.product__item:hover .product__img img {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: ease-out 0.3s;
+  transition: ease-out 0.3s;
+}
+.product__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 377px;
+}
+.product__img img {
+  max-height: 100%;
+  -webkit-transition: ease-out 0.3s;
+  transition: ease-out 0.3s;
+}
+.product__label {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  height: 22px;
+  color: #f3f5fd;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+  border-radius: 11px;
+}
+.product__label--sale {
+  width: 52px;
+  background-color: #c144e0;
+}
+.product__label--new {
+  width: 90px;
+  background-color: #90d339;
+}
+.product__hidden {
+  display: none;
+}
+.product__form {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 25px;
+}
+.product__form p {
+  margin-top: 0;
+}
+.product__btn {
+  height: 42px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: #f9f5f5;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  border-radius: 21px;
+  -webkit-transition: ease-out 0.3s;
+  transition: ease-out 0.3s;
+}
+.product__btn--buy {
+  width: 134px;
+  background-color: #b7b7b8;
+}
+.product__btn--buy:hover,
+.product__btn--buy:active {
+  background-color: #4c4d4d;
+  -webkit-transition: ease-out 0.3s;
+  transition: ease-out 0.3s;
+}
+.product__btn--click {
+  width: 100%;
+  margin-top: 30px;
+  background-color: #be94be;
+}
+.product__btn--click:hover,
+.product__btn--click:active {
+  background-color: #c144e0;
+  -webkit-transition: ease-out 0.3s;
+  transition: ease-out 0.3s;
+}
+.product__btns {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: auto;
+}
+.product__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.product__value {
+  display: block;
+  width: 60px;
+  height: 42px;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  border: 1px solid #dbdbdb;
+}
+.product__change {
+  display: block;
+  width: 30px;
+  height: 42px;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  border: 1px solid #dbdbdb;
+}
+.product__change--minus {
+  border-right: 0;
+  border-radius: 21px 0 0 21px;
+}
+.product__change--plus {
+  border-left: 0;
+  border-radius: 0 21px 21px 0;
+}
