@@ -1,0 +1,27 @@
+.breadcrumbs {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: #4c4d4d;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+a.breadcrumbs__link {
+  margin-right: 10px;
+  
+  &::after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    border: 1px solid #4c4d4d;
+  }
+  
+  &:hover,
+  &:active {
+    text-decoration: underline;
+  }
+}
