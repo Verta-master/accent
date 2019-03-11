@@ -1,0 +1,73 @@
+.sidebar {
+  width: 265px;
+}
+
+.sidebar__title {
+  margin-top: 0;
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: #313436;
+  letter-spacing: 0.06em;
+}
+
+.sidebar__wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.sidebar__check {
+  display: none;
+}
+
+.sidebar__label {
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: #fff;
+  line-height: 1;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 50%;
+  background-color: rgb(211, 221, 229);
+  cursor: pointer;
+}
+
+.sidebar__check:checked + .sidebar__label {
+  background-color: rgb(190, 148, 190);
+}
+
+.sidebar__select {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 40px;
+  padding: 0 15px;
+  color: #313436;
+  font-weight: 400;
+  border: 2px solid rgb(227, 228, 235);
+  border-radius: 4px;
+  background-color: #fff;
+  outline: none;
+  appearance: none;
+  background-image: url(../img/icons/arrow.png);
+  background-repeat: no-repeat;
+  background-position: center right 15px;
+  background-size: 10px 6px;
+  
+  &::-ms-expand {
+    color: transparent;
+    border: none;
+    background-color: rgba(255,255,255,0);
+  }
+}
