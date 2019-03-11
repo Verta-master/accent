@@ -1440,6 +1440,124 @@ a.breadcrumbs__link:active {
   -webkit-transition: ease-out 0.3s;
   transition: ease-out 0.3s;
 }
+.basket {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  color: #4c4d4d;
+}
+.basket__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.basket__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  border-bottom: 1px solid #9da5ab;
+}
+.basket__title span {
+  width: 200px;
+}
+.basket__title span:first-child {
+  width: 265px;
+}
+.basket__line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #dbdbdb;
+}
+.basket__cell {
+  width: 200px;
+  text-align: center;
+  font-weight: 700;
+}
+.basket__cell--product {
+  width: 265px;
+  text-align: left;
+}
+.basket__cell--price {
+  font-size: 30px;
+}
+.basket__product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.basket__img {
+  width: 95px;
+}
+.basket__info {
+  width: calc(100% - 105px);
+  font-size: 16px;
+}
+.basket__promo-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+}
+.basket__label {
+  font-size: 30px;
+  font-weight: 700;
+  margin-right: 40px;
+}
+.basket__input {
+  width: 360px;
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border: 2px solid #e3e4eb;
+  border-radius: 20px;
+}
+.basket__price {
+  width: 360px;
+  max-width: 100%;
+  margin-left: auto;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+.basket__btn {
+  width: 360px;
+  height: 40px;
+  margin-left: auto;
+  max-width: 100%;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
 @media (max-width: 1170px) {
   .wrapper {
     width: 100%;
