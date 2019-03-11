@@ -5,6 +5,7 @@
   <meta name="robots" content="noindex">
   <meta  name="viewport" content="width=device-width,initial-scale=1">
   <title>Акцент</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.1/jquery.fancybox.min.css">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -100,7 +101,7 @@
                   </div>
                   <a href="#" class="product__btn product__btn--buy">купить</a>
                 </div>
-                <a href="#" class="product__btn product__btn--click">Купить в 1 клик</a>
+                <a data-fancybox data-src="#call" href="javascript:;" class="product__btn product__btn--click">Купить в 1 клик</a>
               </form>
             </li>
             <li class="product__item">
@@ -120,7 +121,7 @@
                   </div>
                   <a href="#" class="product__btn product__btn--buy">купить</a>
                 </div>
-                <a href="#" class="product__btn product__btn--click">Купить в 1 клик</a>
+                <a data-fancybox data-src="#call" href="javascript:;" class="product__btn product__btn--click">Купить в 1 клик</a>
               </form>
             </li>
             <li class="product__item">
@@ -140,7 +141,7 @@
                   </div>
                   <a href="#" class="product__btn product__btn--buy">купить</a>
                 </div>
-                <a href="#" class="product__btn product__btn--click">Купить в 1 клик</a>
+                <a data-fancybox data-src="#call" href="javascript:;" class="product__btn product__btn--click">Купить в 1 клик</a>
               </form>
             </li>
             <li class="product__item">
@@ -160,7 +161,7 @@
                   </div>
                   <a href="#" class="product__btn product__btn--buy">купить</a>
                 </div>
-                <a href="#" class="product__btn product__btn--click">Купить в 1 клик</a>
+                <a data-fancybox data-src="#call" href="javascript:;" class="product__btn product__btn--click">Купить в 1 клик</a>
               </form>
             </li>
             <li class="product__item">
@@ -180,7 +181,7 @@
                   </div>
                   <a href="#" class="product__btn product__btn--buy">купить</a>
                 </div>
-                <a href="#" class="product__btn product__btn--click">Купить в 1 клик</a>
+                <a data-fancybox data-src="#call" href="javascript:;" class="product__btn product__btn--click">Купить в 1 клик</a>
               </form>
             </li>
             <li class="product__item">
@@ -200,7 +201,7 @@
                   </div>
                   <a href="#" class="product__btn product__btn--buy">купить</a>
                 </div>
-                <a href="#" class="product__btn product__btn--click">Купить в 1 клик</a>
+                <a data-fancybox data-src="#call" href="javascript:;" class="product__btn product__btn--click">Купить в 1 клик</a>
               </form>
             </li>
             <li class="product__item">
@@ -220,7 +221,7 @@
                   </div>
                   <a href="#" class="product__btn product__btn--buy">купить</a>
                 </div>
-                <a href="#" class="product__btn product__btn--click">Купить в 1 клик</a>
+                <a data-fancybox data-src="#call" href="javascript:;" class="product__btn product__btn--click">Купить в 1 клик</a>
               </form>
             </li>
             <li class="product__item">
@@ -240,11 +241,19 @@
                   </div>
                   <a href="#" class="product__btn product__btn--buy">купить</a>
                 </div>
-                <a href="#" class="product__btn product__btn--click">Купить в 1 клик</a>
+                <a data-fancybox data-src="#call" href="javascript:;" class="product__btn product__btn--click">Купить в 1 клик</a>
               </form>
             </li>
           </ul>
         </section>
+        
+        <nav class="pages">
+          <a href="#" class="pages__link pages__hidden">&laquo;</a>
+          <span class="pages__link">1</span>
+          <a href="#" class="pages__link">2</a>
+          <a href="#" class="pages__link">3</a>
+          <a href="#" class="pages__link">&raquo;</a>
+        </nav>
       </div>
     </div>
   </main>
@@ -280,7 +289,20 @@
     </div>
   </footer>
   
+  <!-- Modal window -->
+  <div style="display: none;" id="call" class="modal">
+    <p class="title-2">Сделать заказ</p>
+    <form action="#" class="modal__form">
+      <input type="text" class="modal__input" placeholder="Имя">
+      <input type="tel" class="modal__input" placeholder="Телефон">
+      <input type="checkbox" id="checkbox" class="modal__check">
+      <label for="checkbox" class="modal__label">Я не робот</label>
+      <button type="submit" class="btn modal__btn">Заказать</button>
+    </form>
+  </div>
+  
   <script src="js/jquery-3.2.1.min.js"></script>
   <script src="js/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.1/jquery.fancybox.min.js"></script>
 </body>
 </html>
