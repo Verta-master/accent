@@ -1,5 +1,5 @@
 .basket {
-  margin-top: 100px;
+  margin-top: 95px;
   margin-bottom: 100px;
   color: #4c4d4d;
 }
@@ -32,8 +32,12 @@
   justify-content: space-between;
   align-items: center;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
   border-bottom: 1px solid rgb(219, 219, 219);
+  
+  p {
+    margin-top: 0;
+  }
 }
 
 .basket__cell {
@@ -44,6 +48,11 @@
   &--product {
     width: 265px;
     text-align: left;
+    
+    &:hover,
+    &:active {
+      text-decoration: underline;
+    }
   }
   
   &--price {
