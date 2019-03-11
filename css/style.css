@@ -1441,7 +1441,7 @@ a.breadcrumbs__link:active {
   transition: ease-out 0.3s;
 }
 .basket {
-  margin-top: 100px;
+  margin-top: 95px;
   margin-bottom: 100px;
   color: #4c4d4d;
 }
@@ -1482,8 +1482,11 @@ a.breadcrumbs__link:active {
       -ms-flex-align: center;
           align-items: center;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
   border-bottom: 1px solid #dbdbdb;
+}
+.basket__line p {
+  margin-top: 0;
 }
 .basket__cell {
   width: 200px;
@@ -1493,6 +1496,10 @@ a.breadcrumbs__link:active {
 .basket__cell--product {
   width: 265px;
   text-align: left;
+}
+.basket__cell--product:hover,
+.basket__cell--product:active {
+  text-decoration: underline;
 }
 .basket__cell--price {
   font-size: 30px;
@@ -1678,6 +1685,14 @@ a.breadcrumbs__link:active {
     margin-right: auto;
     max-width: 100%;
   }
+  .basket__btn {
+    font-size: 18px;
+    height: 40px;
+  }
+  .basket__title,
+  .basket__cell--price {
+    font-size: 24px;
+  }
 }
 @media (max-width: 766px) {
   .title,
@@ -1748,6 +1763,42 @@ a.breadcrumbs__link:active {
   .card__slider {
     margin-bottom: 30px;
   }
+  .basket__title {
+    display: none;
+  }
+  .basket {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .basket__line {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .basket__cell {
+    width: 33%;
+  }
+  .basket__cell--product {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .basket__label {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  .basket__input {
+    width: 300px;
+  }
+  .basket__btn {
+    margin-right: auto;
+  }
+  .basket__price {
+    width: 100%;
+  }
+  .basket__promo-wrap {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 @media (max-width: 480px) {
   .search__input {
@@ -1780,6 +1831,10 @@ a.breadcrumbs__link:active {
   h2 {
     font-size: 30px;
   }
+  .basket__cell--price {
+    width: 100%;
+    margin-top: 15px;
+  }
   .catalog__item {
     width: 100%;
   }
@@ -1804,5 +1859,19 @@ a.breadcrumbs__link:active {
   }
   .card__small {
     margin-right: 0;
+  }
+  .basket__promo-wrap {
+    display: block;
+  }
+  .basket__btn {
+    font-size: 18px;
+  }
+  .basket__label {
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .basket__input {
+    width: 100%;
   }
 }
