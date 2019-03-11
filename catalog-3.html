@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex">
+  <meta  name="viewport" content="width=device-width,initial-scale=1">
+  <title>Акцент</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header__top">
+      <div class="header__wrap wrapper">
+        <a href="tel:+78129070279" class="header__phone">+7(812)907-02-79</a>
+        <a href="#" class="header__mail">НАПИШИТЕ НАМ</a>
+        <a href="#" class="header__cart">0 товаров</a>
+      </div>
+    </div>
+    <div class="header__bottom wrapper">
+      <a href="index.html" class="logo">
+        <img src="img/images/logo.png" alt="Logo">
+      </a>
+      <form action="#" class="search">
+        <input type="text" class="search__input">
+        <button type="submit" class="search__btn">Искать</button>
+      </form>
+    </div>
+  </header>
+  <nav class="menu">
+    <div class="wrapper">
+      <button type="button" class="menu__btn"></button>
+      <ul class="menu__list">
+        <li class="menu__item menu__item--active"><a href="#">Каталог товаров</a></li>
+        <li class="menu__item"><a href="#">Оплата</a></li>
+        <li class="menu__item"><a href="#">Доставка</a></li>
+        <li class="menu__item"><a href="#">Таблица размеров</a></li>
+        <li class="menu__item"><a href="#">О нас</a></li>
+        <li class="menu__item"><a href="#">Контакты</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  <main>
+    <nav class="breadcrumbs wrapper">
+      <a href="#" class="breadcrumbs__link">Главная</a>
+      <a href="#" class="breadcrumbs__link">Каталог товаров</a>
+      <a href="#" class="breadcrumbs__link">мужчинам</a>
+      <span class="breadcrumbs__link">трусы мужские</span>
+    </nav>
+    
+    <div class="wrapper wrapper--columns">
+      <aside class="sidebar">
+        <form action="#" class="sidebar__form">
+          <p class="sidebar__title">Размер</p>
+          <div class="sidebar__wrap">
+            <input type="checkbox" id="check-1" class="sidebar__check">
+            <label for="check-1" class="sidebar__label">xs</label>
+            <input type="checkbox" id="check-2" class="sidebar__check">
+            <label for="check-2" class="sidebar__label">s</label>
+            <input type="checkbox" id="check-3" class="sidebar__check" checked>
+            <label for="check-3" class="sidebar__label">m</label>
+            <input type="checkbox" id="check-4" class="sidebar__check">
+            <label for="check-4" class="sidebar__label">l</label>
+            <input type="checkbox" id="check-5" class="sidebar__check">
+            <label for="check-5" class="sidebar__label">xl</label>
+            <input type="checkbox" id="check-6" class="sidebar__check">
+            <label for="check-6" class="sidebar__label">xxl</label>
+          </div>
+          <p class="sidebar__title">Цвет</p>
+          <select class="sidebar__select">
+            <option value="1">Белый</option>
+            <option value="2">Цвет 2</option>
+            <option value="3">Цвет 3</option>
+          </select>
+          <p class="sidebar__title">Бренд</p>
+          <select class="sidebar__select">
+            <option value="1">Atlantic</option>
+            <option value="2">Бренд 1</option>
+            <option value="3">Бренд 3</option>
+          </select>
+        </form>
+      </aside>
+      <div class="content">
+        <section class="product product--internal">
+          <ul class="product__list">
+            <li class="product__item">
+              <a href="#" class="product__img">
+                <img src="img/images/img-3.jpg" alt="Трусы мужские">
+              </a>
+              <span class="product__label product__label--sale product__hidden">%</span>
+              <span class="product__label product__label--new product__hidden">Новинка</span>
+              <form action="#" class="product__form">
+                <p>Трусы мужские</p>
+                <p>1500 рублей</p>
+                <div class="product__btns">
+                  <div class="product__wrap">
+                    <button type="button" class="product__change product__change--minus">-</button>
+                    <input type="text" class="product__value" value="1">
+                    <button type="button" class="product__change product__change--plus">+</button>
+                  </div>
+                  <a href="#" class="product__btn product__btn--buy">купить</a>
+                </div>
+                <a href="#" class="product__btn product__btn--click">Купить в 1 клик</a>
+              </form>
+            </li>
+            <li class="product__item">
+              <a href="#" class="product__img">
+                <img src="img/images/img-3.jpg" alt="Трусы мужские">
+              </a>
+              <span class="product__label product__label--sale">%</span>
+              <span class="product__label product__label--new product__hidden">Новинка</span>
+              <form action="#" class="product__form">
+                <p>Трусы мужские</p>
+                <p>1500 рублей</p>
+                <div class="product__btns">
+                  <div class="product__wrap">
+                    <button type="button" class="product__change product__change--minus">-</button>
+                    <input type="text" class="product__value" value="1">
+                    <button type="button" class="product__change product__change--plus">+</button>
+                  </div>
+                  <a href="#" class="product__btn product__btn--buy">купить</a>
+                </div>
+                <a href="#" class="product__btn product__btn--click">Купить в 1 клик</a>
+              </form>
+            </li>
+            <li class="product__item">
+              <a href="#" class="product__img">
+                <img src="img/images/img-3.jpg" alt="Трусы мужские">
+              </a>
+              <span class="product__label product__label--sale product__hidden">%</span>
+              <span class="product__label product__label--new">Новинка</span>
+              <form action="#" class="product__form">
+                <p>Трусы мужские</p>
+                <p>1500 рублей</p>
+                <div class="product__btns">
+                  <div class="product__wrap">
+                    <button type="button" class="product__change product__change--minus">-</button>
+                    <input type="text" class="product__value" value="1">
+                    <button type="button" class="product__change product__change--plus">+</button>
+                  </div>
+                  <a href="#" class="product__btn product__btn--buy">купить</a>
+                </div>
+                <a href="#" class="product__btn product__btn--click">Купить в 1 клик</a>
+              </form>
+            </li>
+            <li class="product__item">
+              <a href="#" class="product__img">
+                <img src="img/images/img-3.jpg" alt="Трусы мужские">
+              </a>
+              <span class="product__label product__label--sale product__hidden">%</span>
+              <span class="product__label product__label--new product__hidden">Новинка</span>
+              <form action="#" class="product__form">
+                <p>Трусы мужские</p>
+                <p>1500 рублей</p>
+                <div class="product__btns">
+                  <div class="product__wrap">
+                    <button type="button" class="product__change product__change--minus">-</button>
+                    <input type="text" class="product__value" value="1">
+                    <button type="button" class="product__change product__change--plus">+</button>
+                  </div>
+                  <a href="#" class="product__btn product__btn--buy">купить</a>
+                </div>
+                <a href="#" class="product__btn product__btn--click">Купить в 1 клик</a>
+              </form>
+            </li>
+            <li class="product__item">
+              <a href="#" class="product__img">
+                <img src="img/images/img-3.jpg" alt="Трусы мужские">
+              </a>
+              <span class="product__label product__label--sale product__hidden">%</span>
+              <span class="product__label product__label--new product__hidden">Новинка</span>
+              <form action="#" class="product__form">
+                <p>Трусы мужские</p>
+                <p>1500 рублей</p>
+                <div class="product__btns">
+                  <div class="product__wrap">
+                    <button type="button" class="product__change product__change--minus">-</button>
+                    <input type="text" class="product__value" value="1">
+                    <button type="button" class="product__change product__change--plus">+</button>
+                  </div>
+                  <a href="#" class="product__btn product__btn--buy">купить</a>
+                </div>
+                <a href="#" class="product__btn product__btn--click">Купить в 1 клик</a>
+              </form>
+            </li>
+            <li class="product__item">
+              <a href="#" class="product__img">
+                <img src="img/images/img-3.jpg" alt="Трусы мужские">
+              </a>
+              <span class="product__label product__label--sale product__hidden">%</span>
+              <span class="product__label product__label--new product__hidden">Новинка</span>
+              <form action="#" class="product__form">
+                <p>Трусы мужские</p>
+                <p>1500 рублей</p>
+                <div class="product__btns">
+                  <div class="product__wrap">
+                    <button type="button" class="product__change product__change--minus">-</button>
+                    <input type="text" class="product__value" value="1">
+                    <button type="button" class="product__change product__change--plus">+</button>
+                  </div>
+                  <a href="#" class="product__btn product__btn--buy">купить</a>
+                </div>
+                <a href="#" class="product__btn product__btn--click">Купить в 1 клик</a>
+              </form>
+            </li>
+            <li class="product__item">
+              <a href="#" class="product__img">
+                <img src="img/images/img-3.jpg" alt="Трусы мужские">
+              </a>
+              <span class="product__label product__label--sale product__hidden">%</span>
+              <span class="product__label product__label--new product__hidden">Новинка</span>
+              <form action="#" class="product__form">
+                <p>Трусы мужские</p>
+                <p>1500 рублей</p>
+                <div class="product__btns">
+                  <div class="product__wrap">
+                    <button type="button" class="product__change product__change--minus">-</button>
+                    <input type="text" class="product__value" value="1">
+                    <button type="button" class="product__change product__change--plus">+</button>
+                  </div>
+                  <a href="#" class="product__btn product__btn--buy">купить</a>
+                </div>
+                <a href="#" class="product__btn product__btn--click">Купить в 1 клик</a>
+              </form>
+            </li>
+            <li class="product__item">
+              <a href="#" class="product__img">
+                <img src="img/images/img-3.jpg" alt="Трусы мужские">
+              </a>
+              <span class="product__label product__label--sale product__hidden">%</span>
+              <span class="product__label product__label--new product__hidden">Новинка</span>
+              <form action="#" class="product__form">
+                <p>Трусы мужские</p>
+                <p>1500 рублей</p>
+                <div class="product__btns">
+                  <div class="product__wrap">
+                    <button type="button" class="product__change product__change--minus">-</button>
+                    <input type="text" class="product__value" value="1">
+                    <button type="button" class="product__change product__change--plus">+</button>
+                  </div>
+                  <a href="#" class="product__btn product__btn--buy">купить</a>
+                </div>
+                <a href="#" class="product__btn product__btn--click">Купить в 1 клик</a>
+              </form>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </main>
+  
+  <footer class="footer">
+    <div class="footer__wrap wrapper">
+      <ul class="footer__list">
+        <li><a href="#">Каталог товаров</a></li>
+        <li><a href="#">Оплата</a></li>
+        <li><a href="#">Доставка</a></li>
+        <li><a href="#">Таблица размеров</a></li>
+        <li><a href="#">О нас</a></li>
+        <li><a href="#">Контакты</a></li>
+        <li><a href="#">Пользовательское соглашение</a></li>
+        <li><a href="#">Политика конфиденциальности</a></li>
+      </ul>
+      <div class="footer__block">
+        <p>Реквизиты : ooo “Акцент”<br>
+          инн/кпп 78905965/06859944<br>
+          огрн 9465969459565069<br>
+          адрес улица пушкина дом<br>
+          колотушкина
+        </p>
+        <div class="footer__payment">
+          <img src="img/images/pay-system.png" alt="Оплата">
+        </div>
+      </div>
+      <div class="footer__block">
+        <div class="footer__counter">
+          Счетчики посещений
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
