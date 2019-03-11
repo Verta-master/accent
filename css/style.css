@@ -1341,6 +1341,7 @@ a.breadcrumbs__link:active {
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
+  .product--internal .product__item:nth-child(4n),
   .product__item {
     margin-right: 0;
   }
@@ -1425,6 +1426,7 @@ a.breadcrumbs__link:active {
     margin-left: 10px;
     margin-right: 10px;
   }
+  .wrapper--columns,
   .blog__link {
     display: block;
   }
@@ -1434,12 +1436,18 @@ a.breadcrumbs__link:active {
     margin-bottom: 20px;
     max-width: 100%;
   }
+  .content,
   .blog__info {
     width: 100%;
   }
   .footer__wrap {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+  }
+  .sidebar {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
   }
 }
 @media (max-width: 766px) {
