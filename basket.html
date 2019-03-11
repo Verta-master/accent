@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex">
+  <meta  name="viewport" content="width=device-width,initial-scale=1">
+  <title>Акцент</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header__top">
+      <div class="header__wrap wrapper">
+        <a href="tel:+78129070279" class="header__phone">+7(812)907-02-79</a>
+        <a href="#" class="header__mail">НАПИШИТЕ НАМ</a>
+        <a href="#" class="header__cart">0 товаров</a>
+      </div>
+    </div>
+    <div class="header__bottom wrapper">
+      <a href="index.html" class="logo">
+        <img src="img/images/logo.png" alt="Logo">
+      </a>
+      <form action="#" class="search">
+        <input type="text" class="search__input">
+        <button type="submit" class="search__btn">Искать</button>
+      </form>
+    </div>
+  </header>
+  <nav class="menu">
+    <div class="wrapper">
+      <button type="button" class="menu__btn"></button>
+      <ul class="menu__list">
+        <li class="menu__item menu__item--active"><a href="#">Каталог товаров</a></li>
+        <li class="menu__item"><a href="#">Оплата</a></li>
+        <li class="menu__item"><a href="#">Доставка</a></li>
+        <li class="menu__item"><a href="#">Таблица размеров</a></li>
+        <li class="menu__item"><a href="#">О нас</a></li>
+        <li class="menu__item"><a href="#">Контакты</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  <main>
+    <nav class="breadcrumbs wrapper">
+      <a href="#" class="breadcrumbs__link">Главная</a>
+      <a href="#" class="breadcrumbs__link">Каталог товаров</a>
+      <span class="breadcrumbs__link">корзина</span>
+    </nav>
+    
+    <section class="basket wrapper">
+      <form action="#" class="basket__form">
+        <div class="basket__title">
+          <span>Наименование</span>
+          <span>Размер</span>
+          <span>Количество</span>
+          <span>Стоимость</span>
+        </div>
+        <ul class="basket__list">
+          <li class="basket__line">
+            <div class="basket__cell basket__cell--product">
+              <a href="#" class="basket__product">
+                <figure class="basket__img">
+                  <img src="img/images/img-3.jpg" alt="Трусы мужские">
+                </figure>
+                <div class="basket__info">
+                  <p>Трусы мужские</p>
+                  <p>Артикул: 7777777</p>
+                </div>
+              </a>
+            </div>
+            <div class="basket__cell">L</div>
+            <div class="basket__cell">
+              <div class="product__wrap">
+                <button type="button" class="product__change product__change--minus">-</button>
+                <input type="text" class="product__value" value="1">
+                <button type="button" class="product__change product__change--plus">+</button>
+              </div>
+            </div>
+            <div class="basket__cell basket__cell--price">1500 руб.</div>
+          </li>
+          <li class="basket__line">
+            <div class="basket__cell basket__cell--product">
+              <a href="#" class="basket__product">
+                <figure class="basket__img">
+                  <img src="img/images/img-3.jpg" alt="Трусы мужские">
+                </figure>
+                <div class="basket__info">
+                  <p>Трусы мужские</p>
+                  <p>Артикул: 7777777</p>
+                </div>
+              </a>
+            </div>
+            <div class="basket__cell">L</div>
+            <div class="basket__cell">
+              <div class="product__wrap">
+                <button type="button" class="product__change product__change--minus">-</button>
+                <input type="text" class="product__value" value="1">
+                <button type="button" class="product__change product__change--plus">+</button>
+              </div>
+            </div>
+            <div class="basket__cell basket__cell--price">1500 руб.</div>
+          </li>
+          <li class="basket__line">
+            <div class="basket__cell basket__cell--product">
+              <a href="#" class="basket__product">
+                <figure class="basket__img">
+                  <img src="img/images/img-3.jpg" alt="Трусы мужские">
+                </figure>
+                <div class="basket__info">
+                  <p>Трусы мужские</p>
+                  <p>Артикул: 7777777</p>
+                </div>
+              </a>
+            </div>
+            <div class="basket__cell">L</div>
+            <div class="basket__cell">
+              <div class="product__wrap">
+                <button type="button" class="product__change product__change--minus">-</button>
+                <input type="text" class="product__value" value="1">
+                <button type="button" class="product__change product__change--plus">+</button>
+              </div>
+            </div>
+            <div class="basket__cell basket__cell--price">1500 руб.</div>
+          </li>
+        </ul>
+        
+        <div class="basket__promo-wrap">
+          <label for="promo" class="basket__label">Ввести промокод</label>
+          <input type="text" id="promo" class="basket__input" placeholder="труселя 2019">
+        </div>
+        <p class="basket__price">Итого: 5400 руб.</p>
+        <button type="submit" class="btn basket__btn">Оформить заказ</button>
+      </form>
+    </section>
+  </main>
+  
+  <footer class="footer">
+    <div class="footer__wrap wrapper">
+      <ul class="footer__list">
+        <li><a href="#">Каталог товаров</a></li>
+        <li><a href="#">Оплата</a></li>
+        <li><a href="#">Доставка</a></li>
+        <li><a href="#">Таблица размеров</a></li>
+        <li><a href="#">О нас</a></li>
+        <li><a href="#">Контакты</a></li>
+        <li><a href="#">Пользовательское соглашение</a></li>
+        <li><a href="#">Политика конфиденциальности</a></li>
+      </ul>
+      <div class="footer__block">
+        <p>Реквизиты : ooo “Акцент”<br>
+          инн/кпп 78905965/06859944<br>
+          огрн 9465969459565069<br>
+          адрес улица пушкина дом<br>
+          колотушкина
+        </p>
+        <div class="footer__payment">
+          <img src="img/images/pay-system.png" alt="Оплата">
+        </div>
+      </div>
+      <div class="footer__block">
+        <div class="footer__counter">
+          Счетчики посещений
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
